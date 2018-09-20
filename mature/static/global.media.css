@@ -1,0 +1,61 @@
+*{ -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+body, h1, h2, h3, h4, h5, h6,  ul, li, dl, dd, dt, input, textarea, p { margin: 0; padding: 0; }
+
+html,body{ width: 100%; height: 100%; }
+html{ font-size: 16px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+
+body { font: 12px 'Microsoft YaHei',"PingFang SC", 'Heiti SC','Droidsansfallback','Helvetica','Arial','\5b8b\4f53','Helvetica';  background-color: #fff;}
+
+ul { list-style: none; }
+
+a{ color: #404040;}
+
+a,a:hover { text-decoration: none; }
+
+a img { border: none; }
+
+i ,s,b,em,u{ font-style: normal; font-weight: normal; text-decoration: none; }
+
+textarea, input, button{ border: none; }
+
+
+select::-ms-expand { display: none; }
+
+textarea{ resize: none; overflow: hidden; }
+
+table{ border-collapse: collapse; }
+
+input, textarea, button, select, input:focus, textarea:focus,input[type=button], input[type=submit], button, input[type=reset]{  cursor: pointer;  -moz-appearance:button;  -webkit-appearance:none; border-radius: 0; outline: none; }
+
+input::-ms-clear { display: none; }
+a,button,input,textarea{ -webkit-tap-highlight-color: rgba(0,0,0,0); }
+
+
+:-moz-placeholder { color: #a9a9a9; opacity: 1; font-size: 12px; }
+::-moz-placeholder { color: #a9a9a9; opacity: 1; font-size: 12px; }
+input:-ms-input-placeholder { color: #a9a9a9; opacity: 1; font-size: 12px; }
+input::-webkit-input-placeholder { color: #a9a9a9; opacity: 1; font-size: 12px; }
+textarea:-ms-input-placeholder { color: #a9a9a9; opacity: 1; font-size: 12px; }
+textarea::-webkit-input-placeholder { color: #a9a9a9; opacity: 1; font-size: 12px; }
+
+input:-webkit-autofill{ -webkit-box-shadow: 0 0 0 1000px white inset; }
+input:focus,textarea:focus{ -webkit-tap-highlight-color:rgba(0,0,0,0); -webkit-user-modify:read-write-plaintext-only; }
+input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder{ opacity: 0; }
+
+
+/*::-webkit-selection{ background: #00abee; color: #fff; }*/
+::-moz-selection{ background: #00abee; color: #fff; }
+::selection { background: #00abee; color: #fff; }
+
+.container-fluid{width:100%;min-width: 320px;}
+
+.container{margin:auto;width:100%;max-width: 1200px;}
+.container::before{content:'';display: block;width:100%; clear: both;}
+.container::after{content:'';display: block;width:100%; clear: both;}
+
+.clear-fix{ width:100%; display: block; clear: both; zoom: 1; overflow: hidden;}
+.clear-pos{ width:100%; height: .57rem; display: block; clear: both; }
+
+.fl{float: left;}
+.fr{float: right;}
